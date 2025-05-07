@@ -1,0 +1,22 @@
+.CTA {
+    padding: 1rem 2rem;
+
+    & h3 {
+        text-align: center;
+        font-family: var(--inter-font);
+        color: var(--white);
+        font-weight: 800;
+        font-size: 32px;
+    }
+
+    & button {
+        float: none;
+        margin-bottom: 2rem;
+    }
+}
+
+@media(max-width: 900px) {
+    .CTA h3 {
+        font-size: 28px;
+    }
+}
