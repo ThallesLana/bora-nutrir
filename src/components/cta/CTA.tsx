@@ -1,9 +1,9 @@
 import scrollToFormLead from '../../utils/scrollToFormLead';
 import styles from './CTA.module.css';
 
-const ctaMain = 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.';
-const ctaSecundary = 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.';
-const ctaButton = 'Solicite o contato do profissional!';
+const ctaMain = 'Não perca tempo!';
+const ctaSecundary = 'Comece sua jornada de transformação.';
+const ctaButton = 'Quero uma vida mais saudável!';
 
 function CTA() {
     return (

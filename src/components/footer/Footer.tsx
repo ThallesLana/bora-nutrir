@@ -5,7 +5,7 @@ import TermsOfUse from '../terms/termsOfUse/TermosOfUse';
 import TermsOfPrivacy from '../terms/termsOfPrivacy/TermsOfPrivacy';
 
 
-const enterprise: string = 'Health Leads';
+const enterprise: string = 'Bora Nutrir';
 
 Modal.setAppElement('#root');
 

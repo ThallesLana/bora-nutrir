@@ -1,11 +1,11 @@
 import styles from './BulletPoints.module.css';  
 
-const impactTitle = 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.';
+const impactTitle = 'Por que nos escolher?';
 const bulletPoints = [
-  'Lorem ipsum dolor sit amet, consectetur adipiscing elit;',
-  'Lorem ipsum dolor sit amet, consectetur adipiscing elit;',
-  'Lorem ipsum dolor sit amet, consectetur adipiscing elit;',
-  'Lorem ipsum dolor sit amet, consectetur adipiscing elit;',
+  'Plano alimentar adequado às suas necessidades e objetivos;',
+  'Acompanhamento Individualizado;',
+  'Suporte contínuo do profissional para alcançar seus resultados;',
+  'Reeducação Alimentar, aprenda a fazer escolhas saudáveis e duradouras;',
 ]
 
 function BulletPoints() {

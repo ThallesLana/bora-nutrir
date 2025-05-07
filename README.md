@@ -1,7 +1,7 @@
-# 🧑🏽‍💻 Health Leads
+# 🧑🏽‍💻 Bora Nutrir
 
 ## 📝 Descrição
-Projeto feito para captação de leads de qualquer area.
+Projeto feito para captação de leads de nutrição.
 
 ## 💻 Tecnologias usadas no projeto
 ### 👨🏻‍💻 Linguagens:
@@ -17,8 +17,8 @@ Projeto feito para captação de leads de qualquer area.
 
 1.  **Clone o repositório:**
     ```bash
-    git clone https://github.com/ThallesLana/default-lead-project
-    cd [default-lead-project]
+    git clone https://github.com/ThallesLana/bora-nutrir
+    cd bora-nutrir
     ```
 
 2.  **Instale as dependências:**
@@ -33,7 +33,7 @@ Projeto feito para captação de leads de qualquer area.
     npm start
     ```
 
-    Isso geralmente iniciará o servidor de desenvolvimento do React e abrirá o aplicativo em seu navegador (geralmente em `http://localhost:5173`).
+    Isso geralmente iniciará o servidor de desenvolvimento do React e abrirá o aplicativo em seu navegador (geralmente em `http://localhost:3000`).
 
 
 ## 👨🏻‍💻 Design e Desenvolvimento por:
