@@ -127,6 +127,42 @@ strong {
   font-family: var(--inter-font);
 }
 
+.termsOfUseList {
+  counter-reset: section;
+  list-style-type: none;
+  & > li {
+    padding: 0.5rem 0;
+  }
+}
+
+.termsOfUseList > li::before {
+  counter-increment: section;
+  content: counter(section) ". ";
+  font-weight: bold;
+}
+
+.subList {
+  list-style-type: none;
+  counter-reset: subsection;
+
+  & > li {
+    padding: 0.5rem 0;
+  }
+}
+
+.subList > li::before {
+  counter-increment: subsection;
+  content: counter(section) "." counter(subsection) " ";
+}
+
+.termsOfUseListUl li {
+  list-style-type: square;
+}
+
+.termContentOl {
+    list-style-type: lower-latin;
+}
+
 @media (max-width: 900px) {
   button {
     float: none;
@@ -135,5 +171,9 @@ strong {
   .termTopic {
     text-align: center;
     font-size: 1.2rem;
+  }
+
+  .termsOfUseList {
+    padding-left: 0;
   }
 }

@@ -1,31 +1,28 @@
 .footerContent {
-    height: 50px;
+    height: max-content;
 }
 
 .footer {
     display: flex;
     align-items: center;
-    justify-content: space-between;
-    height: 100%;
-    margin: 1rem;
+    justify-content: center;
+    height: max-content;
+    padding: 1rem;
+    flex-direction: column;
 }
 
 .terms {
-    text-align: left;
+    text-align: center;
 
     & p {
         margin: 0;
         font-size: 12px;
         cursor: pointer;
-    
+
         &:hover {
             text-decoration: underline;
         }
     }
-}
-
-.copyright {
-    margin: 1rem;
 }
 
 .modal {
@@ -65,20 +62,6 @@
 }
 
 @media (max-width: 900px) {
-    .footerContent {
-        height: 120px;
-    }
-
-    .footer {
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
-    }
-
-    .terms {
-        text-align: center;
-    }
-    
     .copyright {
         margin: 0;
         padding-top: 5px;
